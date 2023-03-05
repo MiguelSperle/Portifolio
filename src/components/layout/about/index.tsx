@@ -1,4 +1,4 @@
-// import imgAbout from '../../../assets/img/img_2405.jpg';
+import imgAbout from '../../../assets/img/img_2405.jpg';
 import { GlobalTypes } from '../../../interface/GlobalTypes';
 
 
@@ -8,7 +8,7 @@ export default function About(props: GlobalTypes){
             <div className="container-about">
                 <h2 className='title-about'>{props.title}</h2>
                 <div className='container-about-information'>
-                    <img className='img-about' src='../../../assets/img/img_2405.jpg' alt="" />
+                    <img className='img-about' src={imgAbout} alt="" />
                      <div className='container-text-information'>
                         <p>
                             Sou um estudante de Programação Web, porém estou mais focado no Desenvolvimento Front-End, eu vivo no Rio de Janeiro
