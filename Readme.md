@@ -1,3 +1,3 @@
 # My Personal Web Site - Portfólio
 
-<a href='#'>Click here</a>
+<a href='#' target='_blank'>Click here</a>
