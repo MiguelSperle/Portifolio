@@ -1,5 +1,5 @@
-import imgAbout from '../../../assets/img/img_2405.jpg'
-import { GlobalTypes } from '../../../interface/GlobalTypes'
+import imgAbout from '../../../assets/img/img_2405.jpg';
+import { GlobalTypes } from '../../../interface/GlobalTypes';
 
 
 export default function About(props: GlobalTypes){
