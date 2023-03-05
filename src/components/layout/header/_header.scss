@@ -1,0 +1,123 @@
+#container-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: 15vh;
+        justify-content: space-around;
+        position: fixed;
+        width: 100%;
+        background-color: #121216;
+        color: #fff;
+        z-index: 9999;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: 15vh;
+        justify-content: space-around;
+        position: fixed;
+        width: 100%;
+        background-color: #121216;
+        color: #fff;
+        z-index: 9999;
+        top: 0;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: 15vh;
+        justify-content: space-around;
+        position: fixed;
+        width: 100%;
+        background-color: #121216;
+        color: #fff;
+        z-index: 9999;
+        top: 0;
+    }
+
+
+    
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    width: 100%;
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+        display: none;
+    }
+}
+
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #d6d6dc;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+
+.navbar ul li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0 ;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar ul li a::hover {
+    color: cadetblue;
+    transition: all 0.7s ease;
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+}
+
+.navbar ul li a:hover {
+    color: gray;
+    transition: all 0.7s ease;
+}
+
+.button-menu-mobile {
+    background-color: #121212;
+    color: #d6d6dc;
+    border: none;
+    cursor: pointer;
+
+    @media screen and (min-width: 1201px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        display: none;
+    }
+}

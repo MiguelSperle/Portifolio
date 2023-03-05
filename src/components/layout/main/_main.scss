@@ -1,0 +1,167 @@
+#container-home {
+    margin-top: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+    @media screen and (min-width: 1201px) {
+        gap: 100px;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+       margin-top: 60px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        margin-top: 0px;
+        padding-top: 150px;
+        flex-direction: column;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        flex-direction: column;
+        padding-top: 120px;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+        flex-direction: column;
+        padding-top: 120px;
+    }
+
+}
+
+.container-info-home {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        align-items: center;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        align-items: center;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+        align-items: center;
+    }
+}
+
+.container-info-home p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #a9a9a9;
+}
+
+.container-info-home h2 {
+    font-size: 3.5rem;
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CA42CF 100%);
+    background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+   @media screen and (min-width: 320px) and (max-width: 480px) {
+    font-size: 2rem;
+   }
+
+}
+
+.container-info-home h3 {
+    font-size: 2.2rem;
+    color: #5252e0;
+
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+        font-size: 1.5rem;
+    }
+}
+
+.button-home {
+   display: flex;
+   align-items: center;
+   background-color: transparent;
+   padding: 1.2rem;
+   justify-content: center;
+   
+   cursor: pointer;
+   margin-top: 1rem;
+   border-width: 3px;
+   border-style: solid;
+   border-radius: 5px;
+   border-image: linear-gradient(225deg, rgb(0, 217, 255) 0%, rgb(192, 1, 250) 100%) 1 / 1 / 0 stretch;
+   overflow: hidden;
+   position: relative;
+   transition: all 0.5s ease;
+   width: 350px;
+
+   @media screen and (min-width: 320px) and (max-width: 480px) {
+    width: 300px;
+    padding: 1rem;;
+  }
+}
+
+ .button-home a {
+    text-decoration: none;
+    color: #d6d6dc;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    
+ }
+
+ 
+
+.button-home::before{ 
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(225deg, rgba(0, 217, 255, 0.882) 0%, rgba(213, 2, 250, 0.808) 100%);
+    z-index: -1;
+    transition: transform 0.5s cubic-bezier(0.5, 1.6, 0.4, 0.7) 0s;
+    transform-origin: 0px 0px;
+    transform: scale(0);
+}
+
+.button-home:hover::before {
+    transform: scale(1);
+    color: black;
+    transition: all 0.5s ease;
+}
+
+@keyframes img-move {
+    from {
+        transform: translate3d(0px, 0px, 0px);
+    }
+
+    to {
+        transform: translate3d(-30px, -50px, 0px);
+    }
+}
+
+.img-home {
+    width: 32rem;
+    animation: 3s ease 3s infinite alternate none running img-move;
+
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        width: 22rem;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        width: 20rem;
+        animation: none;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+        animation: none;
+        width: 15rem;
+    }
+}

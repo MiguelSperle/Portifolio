@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #d6d6dc;
+    background-color: #121216;
+    font-family: Poppins, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0.5rem;
+    background-color: #d6d6dc;
+}
+
+@import '../src/components/layout/header/header';
+@import '../src/components/layout/main/main';
+@import '../src/components/layout/about/about';
+@import '../src/components/layout/Ability/habilidade';
+@import '../src/components/layout/repositoryProject/project';
+@import '../src/components/layout/footer/footer';
+@import '../src/components/layout/headerMobile/menuMobile';
