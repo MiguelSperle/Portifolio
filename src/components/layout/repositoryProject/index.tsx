@@ -10,7 +10,7 @@ export default function Project(){
                     </div>
 
                     <div className="project">
-                        <a href="#" target='_blank'><p>Buscar CEP</p></a>
+                        <a href="https://github.com/MiguelSperle/Search-CEP" target='_blank'><p>Buscar CEP</p></a>
                         <p>MAR 11, 2023</p>
                     </div>
                 </div>
