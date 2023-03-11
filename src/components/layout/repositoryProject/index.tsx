@@ -13,6 +13,11 @@ export default function Project(){
                         <a href="https://github.com/MiguelSperle/Card" target='_blank'><p>Github Card</p></a>
                         <p>JAN 23, 2023</p>
                     </div>
+
+                    <div className="project">
+                        <a href="#" target='_blank'><p>Buscar CEP</p></a>
+                        <p>MAR 11, 2023</p>
+                    </div>
                 </div>
 
             </div>
