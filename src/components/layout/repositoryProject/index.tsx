@@ -13,6 +13,11 @@ export default function Project(){
                         <a href="https://github.com/MiguelSperle/Search-CEP" target='_blank'><a className="linkProject" href="https://search-cep-indol.vercel.app/" target='_blank'>#</a><p>Buscar CEP</p></a>
                         <p>MAR 11, 2023</p>
                     </div>
+
+                    <div className="project">
+                        <a href="https://github.com/MiguelSperle/Buscando-Alunos" target='_blank'><a className="linkProject" href="https://buscando-alunos.vercel.app/" target='_blank'>#</a><p>Buscando alunos</p></a>
+                        <p>MAR 24, 2023</p>
+                    </div>
                 </div>
 
             </div>
