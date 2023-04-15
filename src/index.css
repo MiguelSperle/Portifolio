@@ -505,7 +505,7 @@ body {
 }
 
 .container-project {
-  height: 60vh;
+  height: 68vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -623,17 +623,13 @@ body {
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .project p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 
 .project a P:hover {
   color: white;
   transition: all 0.3s ease;
-}
-
-.linkProject {
-  color: white;
 }
 
 .section-footer {

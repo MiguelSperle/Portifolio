@@ -9,7 +9,7 @@
 }
 
 .container-project {
-    height: 60vh;
+    height: 68vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,6 +54,7 @@
     gap: 70px;
     max-width: 1000px;
     width: 100%;
+    
 
     @media screen and (min-width: 1025px) and (max-width: 1200px) {
         align-items: center;
@@ -119,7 +120,7 @@
 
     
     @media screen and (min-width: 320px) and (max-width: 480px) {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
 }
@@ -129,6 +130,3 @@
     transition: all 0.3s ease;
 }
 
-.linkProject{
-    color: white;
-}
