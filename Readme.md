@@ -9,6 +9,7 @@ Esta é a minha nova versão do projeto pessoal e criei este projeto para mostra
 <h2>Build process</h2>
   <ul>
     <li>React JS</li>
+    <li>TypeScript</li>
     <li>SCSS</li>
   </ul>
 
