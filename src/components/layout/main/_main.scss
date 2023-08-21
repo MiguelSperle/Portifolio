@@ -103,8 +103,11 @@
   }
 }
 
- .button-home a {
+a {
     text-decoration: none;
+}
+
+ a .button-home {
     color: #d6d6dc;
     font-size: 1.1rem;
     font-weight: 600;

@@ -8,21 +8,20 @@ export default function About(props: GlobalTypes){
             <div className="container-about">
                 <h2 className='title-about'>{props.title}</h2>
                 <div className='container-about-information'>
-                    <img className='img-about' src='imgPublic/IMG_2405.jpg' alt="" />
                      <div className='container-text-information'>
                         <p>
-                            Sou um estudante de Programação Web, porém estou mais focado no Desenvolvimento Front-End, eu vivo no Rio de Janeiro
+                            Sou estudante de TI, tenho 16 anos, estou focado no Desenvolvimento Front-End e Backend, eu vivo no Rio de Janeiro
                             e atualmente estou no 2° ano do Ensino médio.
                         </p>
 
                         <p>
-                            Meu interesse e primeiro contato com desenvolvimento web 
+                            Meu interesse e primeiro contato com TI em si 
                             começou em abril de 2022, vendo vídeos aleatorios no youtube e 
                             me deparei com um vídeo sobre programação.
                         </p>
 
                         <p>
-                            Estou estudando e desenvolvendo projetos web, pra que eu possa
+                            Estou estudando e desenvolvendo projetos Web, Mobile e Backend, para que eu possa
                             cada vez mais aprender com meus erros e criar uma maturidade e conhecimento
                             suficiente para desenvolver projetos ainda mais complexos.
                         </p>

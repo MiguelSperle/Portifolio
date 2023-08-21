@@ -5,24 +5,29 @@ export default function Project(){
                 <h2>Meus Principais Repósitórios</h2>
                 <div className="container-all-project">
                     <div className="project">
-                        <a href="https://github.com/MiguelSperle/HXZstore" target='_blank'><p>E-commerce</p></a>
+                        <a href="https://github.com/MiguelSperle/HXZstore" target='_blank'><p>HXZstore - Web</p></a>
                         <p>FEB 7, 2023</p>
                     </div>
 
                     <div className="project">
-                        <a href="https://github.com/MiguelSperle/Search-CEP" target='_blank'><p>Buscar CEP</p></a>
-                        <p>MAR 11, 2023</p>
+                        <a href="https://github.com/MiguelSperle/Frontend-web-spacetime" target='_blank'><p>Spacetime - Web</p></a>
+                        <p>MAY 20, 2023</p>
                     </div>
 
                     <div className="project">
-                        <a href="https://github.com/MiguelSperle/Buscando-Alunos" target='_blank'><p>Buscando alunos</p></a>
-                        <p>MAR 24, 2023</p>
+                        <a href="https://github.com/MiguelSperle/Frontend-mobile-spacetime" target='_blank'><p>Spacetime - Mobile</p></a>
+                        <p>MAY 20, 2023</p>
                     </div>
 
                     <div className="project">
+                        <a href="https://github.com/MiguelSperle/TaskControl-Mobile" target='_blank'><p>TaskControl - Mobile</p></a>
+                        <p>AUG 10, 2023</p>
+                    </div>
+
+                    {/* <div className="project">
                         <a href="https://github.com/MiguelSperle/MovieFlix" target="_blank"><p>MovieFlix</p></a>
                         <p>APRIL 15, 2023</p>
-                    </div>
+                    </div> */}
 
                 </div>
 

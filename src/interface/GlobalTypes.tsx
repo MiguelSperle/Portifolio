@@ -1,12 +1,14 @@
 export type GlobalTypes = { // tipagem da props que vem do app.tsx
     title?: string;
     name?: string;
-    profissão?: string;
+    job?: string;
     firstTech?: string;
     secondTech?: string;
     thirdTech?: string;
     fourthTech?: string;
     fifthTech?: string;
+    sixthTech?: string
+    seventhTech?: string
 }
 
 

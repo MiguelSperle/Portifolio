@@ -36,10 +36,10 @@ function App() {
   return (
     <>
      <Header name="Miguel" />
-     <Main name="Miguel Sperle" profissão="Front-End Developer." />
+     <Main name="Miguel Sperle" job="Front-End Developer." />
      <About title="Sobre"/>
-     <Habilidade title="Habilidades" firstTech="JavaScript" secondTech="TypeScript" thirdTech="React JS"
-     fourthTech="CSS" fifthTech="HTML"
+     <Habilidade title="Habilidades" firstTech="JAVASCRIPT" secondTech="TYPESCRIPT" thirdTech="NEXT JS"
+     fourthTech="REACT NATIVE" fifthTech="PRISMA" sixthTech="NODE JS" seventhTech="FASTIFY"
      />
      <Project/>
      <Footer/>

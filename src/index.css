@@ -262,8 +262,11 @@ body {
   }
 }
 
-.button-home a {
+a {
   text-decoration: none;
+}
+
+a .button-home {
   color: #d6d6dc;
   font-size: 1.1rem;
   font-weight: 600;
@@ -358,38 +361,22 @@ body {
   justify-content: center;
   align-items: center;
   gap: 120px;
-  min-width: 980px;
+  min-width: 480px;
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .container-about-information {
-    flex-direction: column;
-    min-width: 600px;
+    min-width: 480px;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .container-about-information {
-    flex-direction: column;
-    min-width: 480px;
+    min-width: 420px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .container-about-information {
-    flex-direction: column;
     min-width: 300px;
   }
-}
-
-.img-about {
-  width: 200px;
-  height: 260px;
-  border-radius: 8px;
-  transition: all 0.5s ease;
-}
-
-.img-about:hover {
-  transform: scale(1.1);
-  transition: all 0.5s ease;
-  cursor: pointer;
 }
 
 .container-text-information {
@@ -551,7 +538,7 @@ body {
 .container-all-project {
   display: flex;
   flex-direction: column;
-  gap: 70px;
+  gap: 20px;
   max-width: 1000px;
   width: 100%;
 }
@@ -610,7 +597,7 @@ body {
 }
 
 .project p {
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   font-weight: 600;
   transition: all 0.4s ease;
   color: #bdbdbd;
@@ -618,12 +605,12 @@ body {
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .project p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .project p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 
