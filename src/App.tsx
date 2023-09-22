@@ -39,7 +39,7 @@ function App() {
      <Main name="Miguel Sperle" job="Front-End Developer." />
      <About title="Sobre"/>
      <Habilidade title="Habilidades" firstTech="JAVASCRIPT" secondTech="TYPESCRIPT" thirdTech="NEXT JS"
-     fourthTech="REACT NATIVE" fifthTech="PRISMA" sixthTech="NODE JS" seventhTech="FASTIFY"
+     fourthTech="REACT NATIVE"
      />
      <Project/>
      <Footer/>

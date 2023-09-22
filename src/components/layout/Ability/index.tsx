@@ -32,21 +32,6 @@ export default function Habilidade(props: GlobalTypes){
                     <img src={FourthImg} alt="" />
                     <p>{props.fourthTech}</p>
                 </div>
-
-                <div className='container-tech'>
-                    <img src={FifthImg} alt="" />
-                    <p>{props.fifthTech}</p>
-                </div>
-
-                <div className='container-tech'>
-                    <img src={SixthImg} alt="" />
-                    <p>{props.sixthTech}</p>
-                </div>
-
-                <div className='container-tech'>
-                    <img src={SeventhImg} alt="" />
-                    <p>{props.seventhTech}</p>
-                </div>
               </div>
            </div>
         </section>
