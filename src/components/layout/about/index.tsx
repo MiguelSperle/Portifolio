@@ -10,7 +10,7 @@ export default function About(props: GlobalTypes){
                 <div className='container-about-information'>
                      <div className='container-text-information'>
                         <p>
-                            Sou estudante de TI, tenho 16 anos, estou focado no Desenvolvimento Front-End e Backend, eu vivo no Rio de Janeiro
+                            Sou estudante de TI, tenho 16 anos, estou focado no Desenvolvimento Front-End, eu vivo no Rio de Janeiro
                             e atualmente estou no 2° ano do Ensino médio.
                         </p>
 
@@ -21,7 +21,7 @@ export default function About(props: GlobalTypes){
                         </p>
 
                         <p>
-                            Estou estudando e desenvolvendo projetos Web, Mobile e Backend, para que eu possa
+                            Estou estudando e desenvolvendo projetos Web, Mobile, para que eu possa
                             cada vez mais aprender com meus erros e criar uma maturidade e conhecimento
                             suficiente para desenvolver projetos ainda mais complexos.
                         </p>
