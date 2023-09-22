@@ -5,6 +5,11 @@ export default function Project(){
                 <h2>Meus Principais Repósitórios</h2>
                 <div className="container-all-project">
                     <div className="project">
+                        <a href="https://github.com/MiguelSperle/TaskControl-Mobile" target='_blank'><p>Landing Page - Web</p></a>
+                        <p>JAN 9, 2023</p>
+                    </div>
+
+                    <div className="project">
                         <a href="https://github.com/MiguelSperle/HXZstore" target='_blank'><p>HXZstore - Web</p></a>
                         <p>FEB 7, 2023</p>
                     </div>
@@ -23,16 +28,8 @@ export default function Project(){
                         <a href="https://github.com/MiguelSperle/TaskControl-Mobile" target='_blank'><p>TaskControl - Mobile</p></a>
                         <p>AUG 10, 2023</p>
                     </div>
-
-                    {/* <div className="project">
-                        <a href="https://github.com/MiguelSperle/MovieFlix" target="_blank"><p>MovieFlix</p></a>
-                        <p>APRIL 15, 2023</p>
-                    </div> */}
-
                 </div>
-
             </div>
-
         </section>
     )
 }
