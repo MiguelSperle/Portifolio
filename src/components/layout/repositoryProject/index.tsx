@@ -5,7 +5,7 @@ export default function Project(){
                 <h2>Meus Principais Repósitórios</h2>
                 <div className="container-all-project">
                     <div className="project">
-                        <a href="https://github.com/MiguelSperle/TaskControl-Mobile" target='_blank'><p>Landing Page - Web</p></a>
+                        <a href="https://github.com/MiguelSperle/landingPage-Rocktseat" target='_blank'><p>Landing Page - Web</p></a>
                         <p>JAN 9, 2023</p>
                     </div>
 
@@ -27,6 +27,11 @@ export default function Project(){
                     <div className="project">
                         <a href="https://github.com/MiguelSperle/TaskControl-Mobile" target='_blank'><p>TaskControl - Mobile</p></a>
                         <p>AUG 10, 2023</p>
+                    </div>
+
+                    <div className="project">
+                        <a href="https://github.com/MiguelSperle/Ecommerce-Mobile" target='_blank'><p>Ecommerce Furniture - Mobile</p></a>
+                        <p>OCT 28, 2023</p>
                     </div>
                 </div>
             </div>
